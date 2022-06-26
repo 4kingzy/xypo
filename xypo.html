@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Xypo Practice</title>
+    <link rel="stylesheet" href="xypo.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="xypo_images/logo.png" class="logo">
+        </div>
+        <div class="text-main">
+            <h1>
+                The purpose is to <br>teach, bring learning to <br>people
+            </h1>
+            <span class="square"></span>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ipsa architecto mollitia accusamus, similique cumque odit officiis laudantium natus eos? Voluptate sunt laborum molestias voluptas officiis magni doloremque, quasi aut.
+            </p>  
+            <a href="#" class="btn"><span></span>
+                Read More
+            </a>
+            <div class="lines">
+                <div class="line-1"></div><br>
+                <div class="line-2"></div><br>
+                <div class="line-3"></div> 
+            </div>         
+        </div>
+        
+               
+    </section>
+    <!--Navigation-->
+    <nav id="navigation">
+        <ul>
+            <li><a href="#" >HOME</a></li>
+            <li><a href="#" >ABOUT US</a></li>
+            <li><a href="#" >FEATURES</a></li>
+            <li><a href="#" >COURSES</a></li>
+            <li><a href="#" >OFFER</a></li>
+            <li><a href="#" >CONTACT</a></li>
+        </ul>        
+    </nav>
+    <div id="menu">
+        <img src="xypo_images/menu.png" id="MenuBtn">
+    </div>
+
+    <script>
+    var menu = document.getElementById("menu")
+    var navigation = document.getElementById("navigation")
+    var MenuBtn = document.getElementById("MenuBtn")
+
+    navigation.style.right == "-250px";
+
+    menu.onclick = function(){
+        if(navigation.style.right == "-250px"){
+            navigation.style.right = "0";
+            MenuBtn.src = "xypo_images/close.png";
+        }
+        else {
+            navigation.style.right = "-250px";
+            MenuBtn.src = "xypo_images/menu.png";
+        }
+
+    }
+    </script>
+
+    <!--ABOUT-->
+    <section id="about">
+        <div class="left-col">
+            <img src="xypo_images/about.png">
+        </div>
+        <div class="right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem ipsa architecto mollitia accusamus, similique cumque odit officiis laudantium natus eos? Voluptate sunt laborum molestias voluptas officiis magni doloremque, quasi aut.
+                </p><br>
+                <div class="lines">
+                    <div class="line-1"></div><br>
+                    <div class="line-2"></div><br>
+                    <div class="line-3"></div> 
+                </div><br>  
+                
+                <h2>
+                    "Learning is not attained by chance, it must be sought for with ardor and attend to with diligence"
+                </h2><br>
+                <h3>----Abigail Adams</h3>
+
+            </div>
+        </div>        
+    </section>
+    
+</body>
+</html>

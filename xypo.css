@@ -390,7 +390,7 @@ button {
 }
 /*CONTACT*/
 #contacts {
-    padding: 200px 0px;
+    padding: 100px 0px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -517,6 +517,54 @@ form input {
     color: white;
     z-index: 1;
 }
+/*FOOTER*/
+#footer {
+    max-width: auto;
+    padding: 50px 70px 30px;
+}
+.content {
+    
+    margin-left: -30px;
+    padding: 30px 30px;
+    justify-content: space-between;
+    display: flex;
+    
+    max-width: auto;
+    
+}
+.content h4 {
+    margin-bottom: 10px;
+    color:#fab3c4;
+}
+.content a {
+    line-height: 25px;
+    text-decoration: none;
+    color:rgb(159, 155, 155);    
+}
+.copy p {
+    padding-top: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.glupko{
+    line-height: 25px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+.logo-2 {
+    width: 150px;
+    margin-bottom: 100px;
+}
+
+ 
+
+   
+
+
+
+
 
 
 

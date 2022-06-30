@@ -409,53 +409,38 @@ button {
 .cont-left h1 {
     margin-bottom: 25px;
 }
-.input1 {
-    margin: 3px 3px 3px 0px;
-    display: block;
-    border:rgb(214, 140, 157) solid;
-    width: auto;
-    padding: 15px;
-    width: 100%;
-}
 
-.input2 {
-    margin: 3px 3px 3px 0px;
-    display: block;
-    border:rgb(214, 140, 157) solid;
-    padding: 15px;
-    width: 100%;
-}
-
-.input3 {
-    margin: 3px 3px 3px 0px;
-    display: block;
-    border:rgb(214, 140, 157) solid;
-    padding: 15px;
-    width: 100%;
-}
 form {
-    width: 100%;
-    display: flex;
-    max-width: 300px;
-    flex-direction: column;
-    justify-content: space-between;   
+    max-width: 340px;
+    margin: 30px 0;
 }
-.inputs {
-    
-    flex-basis: 40%;
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #fab3c4;
 }
 .signTrial {
-    max-width: 300px;
-    display: flex;   
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.signTrial a {
+    flex-basis: 48%;
+    padding: 10px 0;
 }
 
 
 .signup-btn {
     text-align: center;
-    flex-basis: 40%;
+   
     font-weight: bold;
-    margin-right: 10px;
-    padding: 30px 20px;
+    margin-right: 19px;
+    padding: 20px 60px;
+ 
     width: 50%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
@@ -494,7 +479,9 @@ form {
 .freetrial-btn {
     font-weight: bold;
     text-align: center;
-    padding: 20px 20px;
+    padding: 20px 40px;
+   
+    
     width: 50%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
@@ -530,6 +517,16 @@ form {
     color: white;
     z-index: 1;
 }
+
+
+
+ 
+
+   
+
+
+
+
 
 
 
